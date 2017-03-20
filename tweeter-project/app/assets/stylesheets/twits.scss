@@ -1,0 +1,13 @@
+.twit{
+  background-color: blue;
+  color: white;
+  padding: 5 px;
+  border-radius: 10px;
+  height: 50px;
+  width: 250px;
+  border: 1px solid black;
+}
+
+.twit + .twit {
+  
+}

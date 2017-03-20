@@ -1,1 +1,7 @@
-show.html.erb
+<h2>@<%= @user.handle %></h2>
+<% @twits.each do |twit| %>
+  <div class="twit">
+      <p><%= twit.body %></p>
+      <p>created at:<%= twit.created_at %></p>
+      </div>
+  <% end %>
